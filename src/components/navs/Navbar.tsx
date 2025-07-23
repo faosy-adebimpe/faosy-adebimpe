@@ -9,6 +9,7 @@ import { usePathname } from 'next/navigation';
 import Sidebar from '../modals/Sidebar';
 import { useModalStore } from '@/store/modalStore';
 import DownloadCV from '../buttons/DownloadCV';
+import Link from 'next/link';
 // import Link from 'next/link';
 
 const Navbar = () => {
@@ -50,9 +51,11 @@ const Navbar = () => {
             )}
         >
             <div className="wrapper flex justify-between items-center py-5 lg:py-10  limit-width">
-                <div className="text-3xl sm:text-4xl md:text-5xl">
-                    <Logo />
-                </div>
+                <Link href="/">
+                    <div className="text-3xl sm:text-4xl md:text-5xl">
+                        <Logo />
+                    </div>
+                </Link>
                 <div className="hidden lg:block">
                     <NavLinks direction="row" />
                 </div>

@@ -5,6 +5,7 @@ import Logo from '../icons/Logo';
 import classNames from 'classnames';
 import { useModalStore } from '@/store/modalStore';
 import DownloadCV from '../buttons/DownloadCV';
+import Link from 'next/link';
 
 const Sidebar = () => {
     const { sidebarOpen, closeSidebar } = useModalStore();
@@ -27,9 +28,11 @@ const Sidebar = () => {
                 <XIcon className="size-5 transition hover:rotate-180 font-semibold" />
             </button>
             <div className="flex gap-7 flex-col items-center">
-                <div className="text-5xl cc mb-7">
-                    <Logo />
-                </div>
+                <Link href="/">
+                    <div className="text-5xl cc mb-7">
+                        <Logo />
+                    </div>
+                </Link>
                 <NavLinks direction="col" spacing={8} />
 
                 <DownloadCV />

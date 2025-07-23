@@ -50,7 +50,7 @@ const Contact = () => {
 
             <div className="mt-[50px] md:mt-[70px] lg:mt-[100px] sm:flex sm:gap-[35px] sm:items-center">
                 {/* <div className="size-[440px] sm:size-[300px] md:size-[400px] lg:size-[500px] xl:size-[600px] bg-[#212121] flex justify-center items-center rounded-full overflow-hidden"> */}
-                <div className="size-[350px] sm:size-[300px] md:size-[400px] lg:size-[500px] xl:size-[600px] bg-[#212121] flex justify-center items-center rounded-full overflow-hidden mx-auto">
+                <div className="size-[350px] sm:size-[300px] md:size-[400px] lg:size-[500px] xl:size-[600px] bg-[#212121] flex justify-center items-center rounded-full overflow-hidden mx-auto max-w-full">
                     <Image
                         src={profileImage}
                         width={500}
