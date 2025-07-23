@@ -12,7 +12,8 @@ const Sidebar = () => {
         <div
             // bg-black/90
             className={classNames(
-                'w-full fixed left-0 top-0 z-10 bg-black/70 backdrop-blur-md cc transition-all duration-200 lg:hidden bg-[url("/images/background-images/sidebar-bg.jpg")] bg-cover bg-center bg-blend-multiply',
+                // 'w-full fixed left-0 top-0 z-10 bg-black/70 backdrop-blur-md cc transition-all duration-200 lg:hidden bg-[url("/images/background-images/sidebar-bg.jpg")] bg-cover bg-center bg-blend-multiply',
+                'w-full fixed left-0 top-0 z-10 bg-black/70 backdrop-blur-md cc transition-transform lg:hidden bg-[url("/images/background-images/sidebar-bg.jpg")] bg-cover bg-center bg-blend-multiply',
                 {
                     ' h-screen': sidebarOpen,
                     'h-0 opacity-0 pointer-events-none': !sidebarOpen,
