@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
 
-## Getting Started
+This is a personal portfolio project built with Next.js and Tailwind CSS.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   Responsive design
+-   Sidebar navigation with background image and blur effect
+-   Downloadable CV
+-   Social media links
+-   Project showcase
+-   Contact form
+-   Newsletter subscription
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   [Next.js](https://nextjs.org/)
+-   [React](https://react.dev/)
+-   [Tailwind CSS](https://tailwindcss.com/)
+-   [Lucide React Icons](https://lucide.dev/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+-   `src/components/` — UI components (Sidebar, Navbar, Cards, etc.)
+-   `src/app/` — App routes and pages
+-   `src/data/` — Static data (about, services, etc.)
+-   `src/lib/` — Utility libraries (e.g., mail)
+-   `src/store/` — State management (e.g., modal state)
+-   `public/` — Static assets (images, PDFs)
 
-To learn more about Next.js, take a look at the following resources:
+## How to Run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Install dependencies:
+    ```sh
+    npm install
+    ```
+2. Start the development server:
+    ```sh
+    npm run dev
+    ```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Customization
 
-## Deploy on Vercel
+-   Update your CV in the `public/` folder.
+-   Edit personal info and project data in `src/data/`.
+-   Adjust theme and styles in `tailwind.config.ts` and global CSS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- ## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for personal use. Feel free to use as a template for your own portfolio. -->
