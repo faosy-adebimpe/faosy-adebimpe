@@ -28,7 +28,7 @@ const Sidebar = () => {
                 <XIcon className="size-5 transition hover:rotate-180 font-semibold" />
             </button>
             <div className="flex gap-7 flex-col items-center">
-                <Link href="/">
+                <Link href="/" onClick={closeSidebar}>
                     <div className="text-5xl cc mb-7">
                         <Logo />
                     </div>

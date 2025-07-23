@@ -9,9 +9,11 @@ const Footer = () => {
             <div className="wrapper grid gap-[50px] justify-center sm:justify-start lg:grid-cols-3">
                 <div className="flex flex-col gap-[40px] items-center 0 sm:items-start">
                     <div className="flex gap-[24px] flex-col items-center sm:items-start">
-                        <div className="text-5xl">
-                            <Logo />
-                        </div>
+                        <Link href="/">
+                            <div className="text-5xl">
+                                <Logo />
+                            </div>
+                        </Link>
                         <p className="leading-[26.4px] text-[#898989] text-center sm:text-start">
                             Clean code. Sleek design. Functional results.
                             Helping brands and ideas come alive on the web.
