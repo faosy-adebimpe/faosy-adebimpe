@@ -30,7 +30,7 @@ const servicesData = [
         icon: ShoppingCart,
         title: 'E-commerce Development',
         description:
-            'I create custom online stores with features like product listings, user authentication, cart, and payment integrations — designed to boost conversion and performance.',
+            'I create custom online stores with features like product listings, user authentication, cart, and payment integrations designed to boost conversion and performance.',
         tools: ['React', 'Redux', 'MongoDB', 'Next.js', 'Stripe', 'Node.js'],
     },
     {
@@ -61,7 +61,7 @@ const servicesData = [
         icon: BarChart3,
         title: 'Dashboard & Admin Panels',
         description:
-            'I build custom dashboards and admin tools for managing data, users, and workflows — perfect for startups, SaaS, or internal tools.',
+            'I build custom dashboards and admin tools for managing data, users, and workflows perfect for startups, SaaS, or internal tools.',
         tools: ['React', 'Chart.js', 'Tailwind CSS', 'MongoDB', 'Next.js'],
     },
     {
@@ -69,7 +69,7 @@ const servicesData = [
         icon: Plug,
         title: 'Third-Party Integrations',
         description:
-            'Seamless integration with services like Stripe, Firebase, SendGrid, and more — from authentication and email to analytics and payments.',
+            'Seamless integration with services like Stripe, Firebase, SendGrid, and more from authentication and email to analytics and payments.',
         tools: ['Stripe', 'Firebase', 'SendGrid', 'Auth0', 'React'],
     },
     {
