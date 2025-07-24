@@ -1,2 +1,0 @@
-optimize the sidebar image
-on click of sidebar logo close sizebar
