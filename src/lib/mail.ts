@@ -63,7 +63,7 @@ Faosy
       Thank you for subscribing to <strong>Faosy’s Newsletter</strong>.
     </p>
     <p style="font-size: 14px; color: #555;">
-      You're now on our list to receive valuable updates, insights, and other interesting content — straight to your inbox.
+      You're now on our list to receive valuable updates, insights, and other interesting content straight to your inbox.
     </p>
     <p style="font-size: 14px; color: #555;">
       If you didn’t request this subscription, you can safely ignore this email.
