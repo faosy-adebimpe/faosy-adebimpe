@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="328.6" height="284.792" viewBox="0 0 328.6 284.792">
+  <defs>
+    <filter id="top" x="0" y="0" width="328.6" height="157.895" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.612"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2" x="1.665" y="59.955" width="326.935" height="208.69" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.608"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_3" x="132.369" y="200.842" width="63.862" height="83.95" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.608"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Temmack-Logo" transform="translate(-1053.449 -299.771)">
+    <g transform="matrix(1, 0, 0, 1, 1053.45, 299.77)" filter="url(#top)">
+      <path id="top-2" data-name="top" d="M736.115,304.771v39.137H871.846v82.438l21.65,18.32,18.32-18.32V343.909h134.9V304.771Z" transform="translate(-727.11 -298.77)" fill="#db1631"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1053.45, 299.77)" filter="url(#Path_2)">
+      <path id="Path_2-2" data-name="Path 2" d="M737.78,364.726V522.941l38.3,32.476V411.358l115.747,96.594,116.579-96.594V555.417l38.3-32.476V364.726h-38.3l-116.579,94.1-115.747-94.1Z" transform="translate(-727.11 -298.77)" fill="#0253bc"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1053.45, 299.77)" filter="url(#Path_3)">
+      <path id="Path_3-2" data-name="Path 3" d="M869.095,505.614v65.95h45.862v-65.95l-21.983,17.435Z" transform="translate(-727.73 -298.77)" fill="#0253bc"/>
+    </g>
+  </g>
+</svg>
